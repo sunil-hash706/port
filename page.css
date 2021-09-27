@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: sticky;
+    overflow-x: hidden;
+}
+
+.mainbox {
+    background-image: url('/img/body.jpg');
+
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+nav {
+    position: fixed;
+    height: 50px;
+    z-index: 2;
+    background-color: rgb(78, 77, 78);
+    opacity: 0.7;
+}
+
+
+.darkbg {
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 38px;
+    width: 80px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#title{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.sublogo1 {
+    height: 34px;
+    width: 35px;
+    position: fixed;
+    bottom: 22px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    font-size: 19px;
+    visibility: hidden;
+}
+
+.sublogo2 {
+    height: 34px;
+    width: 35px;
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: white;
+    font-size: 18px;
+    /* visibility: hidden; */
+}
+
+#txt {
+    position: fixed;
+    bottom: 70px;
+    right: 28px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.bg1 {
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    z-index: -1;
+    top: 500px;
+}
+
+
+.bg2 {
+    width: 100vw;
+    background-color: rgb(255, 253, 253);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: -1;
+    top: 500px;
+}
+
+.spbox {
+    height: 800px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    right: 10px;
+    animation: boxani 12s linear infinite;
+}
+
+@keyframes boxani {
+    0% {
+        top: 465px;
+    }
+    50% {
+        top: 1000px;
+    }
+    100% {
+        top: 500px;
+    }
+}
+
+.button {
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: rgb(74, 138, 223);
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+.button1 {
+    position: absolute;
+    right: 80px;
+    top: 203px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: rgb(74, 138, 223);
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+.button2 {
+    position: absolute;
+    right: 80px;
+    top: 335px;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background-color: rgb(74, 138, 223);
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons {
+    border-radius: 70px;
+    background-color: rgb(196, 133, 209);
+    height: 105px;
+    width: 105px;
+    font-size: 28px;
+}
+
+.skils {
+    position: relative;
+    top: 150px;
+    display: flex;
+}
+
+#name {
+    position: relative;
+    top: 160px;
+    left: 170px;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+}
+.photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    /* margin: 20px; */
+    left: 200px;
+    background-color: red;
+    border: 3px solid cornsilk;
+}
+
+h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.height{
+    margin-top: 20px;
+    height: 400px;
+    width: 100vw;
+}
+/* @media screen and (max-width: 1000px) {
+    .height{
+        margin-top: 20px;
+        height: 400px;
+        width: 125%;
+    }
+  } */
